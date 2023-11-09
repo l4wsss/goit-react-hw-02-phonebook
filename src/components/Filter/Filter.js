@@ -1,12 +1,12 @@
 import { FilterContainer, FilterInput, FilterLabel } from './Filter.styled';
 
-export const Filter = ({ changeContactFilter, value }) => {
+export const Filter = ({ changeContactFilter, filter }) => {
   return (
     <FilterContainer>
       Find contact by name
       <FilterLabel>
         <FilterInput
-          value={value}
+          value={filter}
           onChange={changeContactFilter}
           placeholder="Find your contact"
         />

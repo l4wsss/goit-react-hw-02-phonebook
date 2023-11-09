@@ -4,7 +4,7 @@ import {
     ContactsListItems,
   } from './ContactList.styled';
   
-  export const ContactsList = ({ onDeleteContact, onFilter }) => {
+  export const ContactList = ({ onDeleteContact, onFilter }) => {
     return (
       <ContactsListItem>
         {onFilter.map(contact => (
